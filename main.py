@@ -43,7 +43,7 @@ bricks = []
 for i in range(string):
     for j in range(column):
         brick_x, brick_y = j * brick_w, i * brick_h
-        colors = choice(['red', 'orange',  'yellow', 'green', 'blue', 'aqua', 'violet'])
+        colors = choice(['red', 'orange', 'yellow', 'green', 'blue', 'aqua', 'violet'])
         bricks.append(canvas.create_rectangle(brick_x, brick_y, brick_x + brick_w, brick_y + brick_h, fill=colors))
 
 
